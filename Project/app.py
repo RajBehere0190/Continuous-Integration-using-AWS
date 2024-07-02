@@ -5,6 +5,7 @@ from flask_login import LoginManager, UserMixin, login_user, current_user, logou
 from forms import RegistrationForm, LoginForm, PostForm
 from models import User, Post
 
+
 app = Flask(__name__)
 app.config.from_object('config.Config')
 
