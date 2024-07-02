@@ -67,6 +67,8 @@ def new_post():
         return redirect(url_for('home'))
     return render_template('create_post.html', form=form)
 
-if __name__ == '__main__':
+if __name__ == '__main__':                                          
     app.run(debug=True)
-    
+
+
+
