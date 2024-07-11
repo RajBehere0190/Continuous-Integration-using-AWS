@@ -28,5 +28,7 @@ In this step, we'll configure AWS CodeBuild to build our Python application base
 - Save the CodeBuild project and go back to CodePipeline.
 - Continue configuring the pipeline stages, such as deploying your application using AWS Elastic Beanstalk or any other suitable deployment option.
 - Review the pipeline configuration and click on the "Create pipeline" button to create your AWS CodePipeline.
+- ![WhatsApp Image 2024-07-07 at 19 55 03_21c18298](https://github.com/RajBehere0190/Continuous-Integration-using-AWS/assets/117808263/c12f837b-9894-4c0f-9ca9-414bb0e358bc)
+
 
 
