@@ -7,7 +7,7 @@ In this step, we'll configure AWS CodeBuild to build our Python application base
 - For the source provider, choose either "Github" or "AWS CodePipeline."
 - Choose the option rather want to use "Public Repository" or "Repository in my Github account" and provide the URL with repository.
 - Configure the build environment, such as the operating system, runtime, and compute resources required for your Python application.
-- Specify the build commands, such as installing dependencies and running tests. Customize this based on your application's requirements.
+- Specify the build commands, such as installing dependencies and running tests. Customize this based on your application's requirements.(https://github.com/RajBehere0190/Continuous-Integration-using-AWS/blob/main/Project/buildspec.yml)
 - Set up the artifacts configuration to generate the build output required for deployment.
 - Review the build project settings and click on the "Create build project" button to create your AWS CodeBuild project.
 -![WhatsApp Image 2024-07-03 at 00 14 06_ec98dcaa](https://github.com/RajBehere0190/Continuous-Integration-using-AWS/assets/117808263/4f498768-2314-42d9-954b-45e4470e2fb4)
