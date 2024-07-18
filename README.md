@@ -12,6 +12,7 @@ In this step, we'll configure AWS CodeBuild to build our Python application base
 - Review the build project settings and click on the "Create build project" button to create your AWS CodeBuild project.
 -![WhatsApp Image 2024-07-03 at 00 14 06_ec98dcaa](https://github.com/RajBehere0190/Continuous-Integration-using-AWS/assets/117808263/4f498768-2314-42d9-954b-45e4470e2fb4)
 ![WhatsApp Image 2024-07-03 at 00 16 19_bf6faf8b](https://github.com/RajBehere0190/Continuous-Integration-using-AWS/assets/117808263/d371de2f-ea65-4f2b-880b-f90a928a15e5)
+
 ![WhatsApp Image 2024-07-07 at 19 51 43_276329ac](https://github.com/user-attachments/assets/678b55fd-9236-42cd-b312-57a72686243f)
 
 **Creating Parameters in System Manager**
@@ -20,6 +21,7 @@ This step is necessary for creating a parameters which then should be used in th
 it also maintains the secrecy by keeping data safe.
 
 -Search for System Manager in aws.
+
 -Click on parameter store.
 
 
