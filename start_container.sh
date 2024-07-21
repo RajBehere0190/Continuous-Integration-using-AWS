@@ -1,3 +1,4 @@
+
 #!/bin/bash
 set -e
 
@@ -6,3 +7,4 @@ docker pull rajbehere0190/simple-python-flask-app
 
 # Run the Docker image as a container
 docker run -d -p 5000:5000 rajbehere0190/simple-python-flask-app
+
