@@ -30,6 +30,13 @@ it also maintains the secrecy by keeping data safe.
 - Give Application name.
 - Choose Compute Platform as per relevance as I chose EC2-on premise.
 
+**Configuring EC2 Instance**
+
+- Create an EC2 Instance.
+- Host that instance on terminal.
+- Install CodeDeploy Agent on it by running following commands.
+  
+       
 **Create an AWS CodePipeline**
 
 - Go to the AWS Management Console and navigate to the AWS CodePipeline service.
