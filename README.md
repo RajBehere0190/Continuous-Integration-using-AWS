@@ -26,9 +26,9 @@ it also maintains the secrecy by keeping data safe.
 
 **Configuring CodeDeploy**
 
--Create Application.
--Give Application name.
--Choose Compute Platform as per relevance as I chose EC2-on premise.
+- Create Application.
+- Give Application name.
+- Choose Compute Platform as per relevance as I chose EC2-on premise.
 
 **Create an AWS CodePipeline**
 
