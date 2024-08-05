@@ -34,7 +34,7 @@ it also maintains the secrecy by keeping data safe.
 
 - Create an EC2 Instance.
 - Host that instance on terminal.
-- Install CodeDeploy Agent on it by running following commands.
+- Install CodeDeploy Agent on it by running commands follow (Project/CodeDeploy_Agent)
   
        
 **Create an AWS CodePipeline**
