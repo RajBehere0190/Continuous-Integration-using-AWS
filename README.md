@@ -28,13 +28,15 @@ it also maintains the secrecy by keeping data safe.
 
 - Create Application.
 - Give Application name.
-- Choose Compute Platform as per relevance as I chose EC2-on premise.
+- Choose Compute Platform as per relevance as I selected EC2-on premise.
 
 **Configuring EC2 Instance**
 
 - Create an EC2 Instance.
-- Host that instance on terminal.
-- Install CodeDeploy Agent on it by running commands follow (Project/CodeDeploy_Agent)
+- Host that instance on terminal i.e logged into it.
+- Install CodeDeploy Agent on it by running commands follow (Project/CodeDeploy_Agent).
+- Install the docker on it by running following command:
+  sudo apt install docker.io -y
   
        
 **Create an AWS CodePipeline**
