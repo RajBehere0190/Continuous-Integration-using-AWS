@@ -24,6 +24,8 @@ it also maintains the secrecy by keeping data safe.
 - Click on parameter store.
 - Create parameters.
 - Provide name and descriptions for example, /myapp/docker-credentials/username,/myapp/docker-credentials/password,/myapp/docker-registry/url.
+  ![Screenshot 2024-07-07 195320](https://github.com/user-attachments/assets/4d14710b-9996-4f74-8cdb-df876a76339e)
+
 
 **Configuring CodeDeploy**
 
