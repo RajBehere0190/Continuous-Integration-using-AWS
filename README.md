@@ -20,13 +20,10 @@ In this step, we'll configure AWS CodeBuild to build our Python application base
 This step is necessary for creating a parameters which then should be used in the build commands i.e buildspec.yml file to specify the docker credentials like username,password and docer registry url,
 it also maintains the secrecy by keeping data safe.
 
--Search for System Manager in aws.
-
--Click on parameter store.
-
--create parameters.
-
--Provide name and descriptions for example, /myapp/docker-credentials/username,/myapp/docker-credentials/password,/myapp/docker-registry/url.
+- Search for System Manager in aws.
+- Click on parameter store.
+- Create parameters.
+- Provide name and descriptions for example, /myapp/docker-credentials/username,/myapp/docker-credentials/password,/myapp/docker-registry/url.
 
 **Configuring CodeDeploy**
 
