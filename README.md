@@ -21,8 +21,9 @@ This step is necessary for creating a parameters which then should be used in th
 it also maintains the secrecy by keeping data safe.
 
 -Search for System Manager in aws.
-
 -Click on parameter store.
+-create parameters.
+-Provide name and descriptions for example, /myapp/docker-credentials/username,/myapp/docker-credentials/password,/myapp/docker-registry/url.
 
 **Configuring CodeDeploy**
 
