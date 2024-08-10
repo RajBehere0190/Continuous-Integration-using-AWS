@@ -42,6 +42,10 @@ it also maintains the secrecy by keeping data safe.
 - Install CodeDeploy Agent on it by running commands follow (Project/CodeDeploy_Agent).
 - Install the docker on it by running following command:
   sudo apt install docker.io -y
+- Go to Deployment Groups.
+- Provide Deployment group name.
+- Enter service role.
+- In Environment Configuration xhoose EC2 instance.
   
        
 **Create an AWS CodePipeline**
