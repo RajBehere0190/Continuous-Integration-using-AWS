@@ -68,6 +68,8 @@ it also maintains the secrecy by keeping data safe.
 **Creating Roles**
 
 As roles is an important factor for accessing the certain services in certain manner.
+- Search for roles.
+- Permissions
 
 
 
