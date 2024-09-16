@@ -2,15 +2,15 @@ version: 0.0
 os: linux
 
 files:
-  - source: /
-    destination: /Project/app  # Change this to your desired destination
+  - source: /Project
+    destination: /Project/app  # Adjust based on where you want to deploy your app.py
 
 hooks:
   ApplicationStop:
-    - location: scripts/stop_container.sh
+    - location: stop_container.sh
       timeout: 300
       runas: root
   AfterInstall:
-    - location: scripts/start_container.sh
+    - location: start_container.sh
       timeout: 300
       runas: root
