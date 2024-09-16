@@ -1,12 +1,16 @@
 version: 0.0
 os: linux
 
+files:
+  - source: /Project
+    destination: /Project/app  # Destination on the instance
+
 hooks:
   ApplicationStop:
-    - location: scripts/stop_container.sh  
+    - location: scripts/stop_container.sh  # Path relative to the root of your project
       timeout: 300
       runas: root
   AfterInstall:
-    - location: scripts/start_container.sh  
+    - location: scripts/start_container.sh  # Path relative to the root of your project
       timeout: 300
       runas: root
