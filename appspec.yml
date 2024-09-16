@@ -1,6 +1,10 @@
 version: 0.0
 os: linux
 
+files:
+  - source: /
+    destination: /Project/app  # Change this to your desired destination
+
 hooks:
   ApplicationStop:
     - location: scripts/stop_container.sh
@@ -10,4 +14,3 @@ hooks:
     - location: scripts/start_container.sh
       timeout: 300
       runas: root
-
